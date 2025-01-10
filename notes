@@ -1,1 +1,16 @@
+Chapter 1 - Introduction to HTML
+HTML stands for Hyper Text Markup Language, and it's technically not a programming language, but instead, a markup language. For now, we'll think of it as a glorified word document. In a word document, you can create text headers, add links, display images and well, HTML isn't that different.
 
+1.1 Creating an HTML Document
+To get started coding in HTML, we first need to create an HTML document. We can do that by initializing a new file, just as if we we're create a standard word document, giving it any name followed by the .html suffix. For example ->
+
+index.html
+
+This file should be located within a folder that is known as your project directory. We can have multiple HTML files within the project directory, where each file can be used as a subroute for our HTML webpage.
+
+The default HTML page will always be the one named index.html. An example project directory is as follows:
+
+project_directory
+|- index.html
+|- about.html
+|- contact.html
