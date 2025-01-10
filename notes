@@ -14,3 +14,23 @@ project_directory
 |- index.html
 |- about.html
 |- contact.html
+
+1.2 Initializing an HTML Document
+Now that we have our project created our document, we can go ahead and open it up. HTML documents always start off with a little bit of boilerplate code that looks as follows:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        visible content goes here . . .
+    </body>
+</html>
+If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ! key, it will prompt you to create the code.
+
+1.2.1 Local Development
+You could right click on index.html and then click open with live server to see how it would look as you code.
+To get your code live in a local development environment & to see how it looks, simply drag and drop any html file (typically the index.html) onto your browser. Page refresh after saving changes to your HTML document to see the updated changes.
