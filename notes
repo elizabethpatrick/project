@@ -48,3 +48,62 @@ HTML tags are either semantic or non-semantic. Semantic tags imply more meaning 
 Single use <head> · <body> · <header> · <nav> · <footer> · <main>
 Multi use <section> · <details> · <summary> · <aside> · <time>
 Tag pairs contained within other tag pairs are known as Nested tags.
+
+1.4 HTML Tag Functionalities
+HTML tags in general typically serve 1 of 3 general purposes -> container, typography, or miscellaneous.
+
+-> Container Tags deal with the containerization or grouping of contents. This could be by arranging associated contents in a row, in a column, or even in a grid. We can think of it as if we we're organizing clothing within a set of drawers. We might have a drawer for all things lower body, and within the draw we might have individual subcontainers for shorts, socks and undergarmets, and perhaps socks are further segregated into grouping of long socks and short socks.
+
+Typically the containerization of contents is determined by the relatability of the content. If some information pertains to some other, we'll likely contain them together. Equally the relation might be determined by styling requirements; i.e. this element is spaced or styled depending on another. The primary container tags are as follows:
+
+Semantic Container Tags
+<head></head>
+contains meta information about the HTML web page; single-use
+<body>all visable page contents</body>
+contains all the visable page contents; single-use
+<header></header
+contains contents that creates the page header (logo, navigation links etc...); single-use
+<nav></nav>
+contains all the page navigation links; single-use
+<main></main>
+contains the main page content (everything not in header or footer); single-use
+<footer></footer>
+contains the footer info (contact details, privacy policy, terms of use etc...); single-use
+<aside>highlighted text</aside>
+contains information for side navigation bar
+<form><input/></form>
+contains form information/inputs/textareas for user interaction
+<section>highlighted text</section>
+contains large generally-related sections of contents
+<ul><li>list item within an unordered list</li></ul>
+unordered list (ul) contains 1 or more list items
+Non-semantic Container Tags
+<div></div>
+the most commonly used container tag
+<span>Click me</span>
+used for special inline styling of certain contents
+-> Typography Tags are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags:
+
+<h1>Heading 1 - the biggest font & size (only for titles and main headings)</h1> 
+<h2>Heading 2 - 2nd biggest</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6 - the smallest heading</h6>
+<p>Paragraph - for any generic text (non-heading text)</p>
+-> Miscellaneous Tags concern themselves with the workings of all other HTML tag functionalities. There's loads of them but only 20% of them do 80% of the work. You can read more about them here but the main ones are as follows:
+
+<input/>
+for user inputs such as text, dates, files and so on (self-closing)
+<textarea>default text...</textarea>
+for larger text inputs
+<img/>
+for img displays
+<mark>highlighted text</mark>
+for text highlights/emphasis
+<details></details>
+for text open/close models
+<button>Click me</button>
+for button text display
+<a>link text</a>
+anchor tags are for links to internal or external web pages
