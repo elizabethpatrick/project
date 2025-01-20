@@ -90,7 +90,7 @@ used for special inline styling of certain contents
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6 - the smallest heading</h6>
-<p>Paragraph - for any generic text (non-heading text)</p>
+<p>Paragraph - for any generic text (non-heading text)</p>that 
 -> Miscellaneous Tags concern themselves with the workings of all other HTML tag functionalities. There's loads of them but only 20% of them do 80% of the work. You can read more about them here but the main ones are as follows:
 
 <input/>
@@ -107,3 +107,17 @@ for text open/close models
 for button text display
 <a>link text</a>
 anchor tags are for links to internal or external web pages
+
+1.5 Code Commenting in HTML
+We can create invisible notes in our HTML code that only developers in the code base can see. These will not appear on the web page. This can be used in cases such as organizing and labeling sections in code, describing what the code is supposed to be working on and targeting.
+
+Code comments cannot be nested (one contained within another).
+
+To create a code comment, simply wrap your desired note or comment within the following syntax:
+
+<!-- COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 -->
+
+Others also use this pair /*  */
+
+For example:
+/* COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 */
